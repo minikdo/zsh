@@ -108,5 +108,6 @@ unsetopt share_history
 setopt completealiases   
 
 apt_pref="apt"
+apt_upgr="upgrade"
 
 # --- END ---
