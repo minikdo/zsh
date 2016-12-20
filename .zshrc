@@ -98,8 +98,9 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshrc="joe ~/.zshrc"
-alias muttrc="joe ~/.muttrc"
+alias zshrc="sensible-editor ~/.zshrc"
+alias muttrc="sensible-editor ~/.muttrc"
+alias erc="sensible-editor ~/.emacs"
 alias sshy="torsocks ssh $*"
 
 # alias ohmyzsh="mate ~/.oh-my-zsh"
