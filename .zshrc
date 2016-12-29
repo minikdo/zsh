@@ -67,7 +67,7 @@ HISTSIZE=100000
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git debian battery systemd sudo history)
+plugins=(git debian battery systemd sudo history man)
 
 # User configuration
 
@@ -75,6 +75,10 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
+
+# Automatically list directory contents on `cd`.
+auto-ls () { ls --color; }
+chpwd_functions=( auto-ls $chpwd_functions )
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
