@@ -105,7 +105,7 @@ chpwd_functions=( auto-ls $chpwd_functions )
 alias zshrc="sensible-editor ~/.zshrc"
 alias muttrc="sensible-editor ~/.muttrc"
 alias erc="sensible-editor ~/.emacs"
-alias sshy="torsocks ssh $*"
+alias sshy="torsocks ssh $1"
 
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
