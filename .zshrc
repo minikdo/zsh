@@ -106,6 +106,7 @@ alias zshrc="sensible-editor ~/.zshrc"
 alias muttrc="sensible-editor ~/.muttrc"
 alias erc="sensible-editor ~/.emacs"
 alias sshy="torsocks ssh $1"
+alias dq='dpkg -l | grep -i'
 
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
